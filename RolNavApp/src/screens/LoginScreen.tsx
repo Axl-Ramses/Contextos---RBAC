@@ -1,12 +1,7 @@
 import React, { useState, useContext } from "react";
-import {
-  Text,
-  TouchableOpacity,
-  StyleSheet,
-  SafeAreaView,
-  View,
-} from "react-native";
-import { AuthContext } from "../../contexts/AuthContext";
+import { Text, TouchableOpacity, StyleSheet, View } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
+import { AuthContext } from "../context/AuthContext";
 
 type Rol = "admin" | "common" | null;
 
